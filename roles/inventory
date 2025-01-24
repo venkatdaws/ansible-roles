@@ -6,4 +6,4 @@ backend.dawss78s.online
 dawss78s.online
 
 [all:vars]
-ansible_password= DevOps321
+ansible_password=DevOps321
