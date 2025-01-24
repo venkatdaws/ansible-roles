@@ -10,7 +10,7 @@
     enabled: yes
 
 - name: run the app from prerequisites
-  ansible.builtin.import.roles:
+  ansible.builtin.import.role:
     name: common
     tasks_from: app-pre-req
 
