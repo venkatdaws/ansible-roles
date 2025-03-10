@@ -3,7 +3,7 @@ db.dawss78s.online
 [backend]
 backend.dawss78s.online
 [frontend]
-dawss78s.online
+frontend.dawss78s.online
 
 [all:vars]
 ansible_password=DevOps321
