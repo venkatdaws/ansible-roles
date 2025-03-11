@@ -24,8 +24,8 @@
     tasks_from: app-pre-req
 
 - name: install npm dependencies
-  # tags:
-  # - deployment
+  tags:
+  - deployment
   ansible.builtin.command: npm install
   args:
     chdir: /app
@@ -56,8 +56,8 @@
     daemon_reload: true
 
 - name: start and enable backend service
-  # tags: 
-  # - deployment
+  tags: 
+  - deployment
   ansible.builtin.service:
     name: backend
     state: restarted
